@@ -1,17 +1,17 @@
 # Formal_languages_and_automata-homework
  A dynamic console application
 
-1. Uygulama çalıştığında ilk olarak “FST.txt” adındaki dosyayı okumalıdır. “FST.txt” dosyasında bir FST
-makinesinin formal tanımı yer almaktadır.Kendinizin de formata uygun farklı dosyalar oluşturup uygulamanızı test etmenizde yarar vardır.
+1. When the application runs, it must first read the file named "FST.txt". The "FST.txt" file contains an FST
+It is useful to test your application by creating different files that conform to the format.
 
-2. Örnek dosyada boşluk ve tab karakteri ile ayrım yapılmıştır. δ geçiş fonksiyonundaki değerler birbirinden tab
-karakteri ile ayrılmıştır. Örnek bir dosyanın ekran görüntüsü aşağıda yer almaktadır.
+2. The example file is separated by a space and tab character. The values in the transition function δ are separated by tab
+separated by a character. A screenshot of an example file is shown below.
 
-3. State’lerin sayısı, state’lerin isimleri, girdi alfabesindeki ve çıktı alfabesindeki sembollerin sayısı ve semboller
-değişebilir. Yani uygulamanız bunları destekleyecek şekilde dinamik olmalıdır.
+3. Number of states, names of states, number of symbols in the input alphabet and output alphabet and symbols
+can change. So your application should be dynamic to support them.
 
-4. Program dosyayı okuduktan sonra, kullanıcıdan 2 tane input girmesini istemeli ve kullanıcının girdiği
-inputlara göre FST’nin çıktılarını ve girdi işlenirken geçilen state’lerin sırasını ekrana yazmalıdır.
+4. After the program reads the file, it should ask the user to enter 2 inputs and the
+write the outputs of the FST according to the inputs and the order of the states passed while processing the input.
 
-5. Projenizi yaparken nesneye yönelik programlama tekniğini göz önünde bulundurunuz. Dolayısıyla, projenizde
-belirli sayıda ve uygun şekilde sınıflar ve metotlar tanımlanmalıdır.
+5. Consider the object-oriented programming technique while doing your project. Therefore, in your project
+a certain number and appropriate number of classes and methods should be defined.
